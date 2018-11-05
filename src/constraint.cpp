@@ -125,7 +125,7 @@ void Constraint::MenuConstrain(Command id) {
     auto const &gs = SS.GW.gs;
 
     switch(id) {
-        case Command::DISTANCE_DIA:
+        case Command::SCALE:
         case Command::REF_DISTANCE: {
             if(gs.points == 2 && gs.n == 2) {
                 c.type = Type::PT_PT_DISTANCE;
