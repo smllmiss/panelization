@@ -24,8 +24,8 @@ struct ToolIcon {
 static ToolIcon Toolbar[] = {
 	{ "image",           Command::IMAGE,
       N_("Sketch image from a file"),                         {} },
-	{ "length",          Command::DISTANCE_DIA,
-      N_("Constrain distance / diameter / length"),           {} },
+	{ "scale",          Command::SCALE,
+      N_("Input blueprint dimensions"),           {} },
 	{ "",                Command::NONE, "",               {} },
 	
 	{ "line",            Command::LINE_SEGMENT,
